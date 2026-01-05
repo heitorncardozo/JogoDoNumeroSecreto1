@@ -14,6 +14,7 @@ function gerarNumeroAleatorio(arrays) {
 let historico = [];
 let numeroSecreto = gerarNumeroAleatorio(historico);
 let tentativas = 1;
+let numeroLimite = 100;
 
 function exibirTextoNaTela(tag, texto) {
     document.querySelector(tag).innerHTML = texto;
